@@ -1,0 +1,159 @@
+@font-face {
+    font-family: Fraunces;
+    src: url(/Fonts/Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf);
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(/Fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+
+:root {
+    --background-color : #f2ebe3;
+    --very-dark-blue : 	#1c232b;
+    --dark-greyish-blue : #6c7289;
+    --payment-color : #3c8067;
+}
+
+body {
+	
+    background-color: var(--background-color);
+}
+
+/** mobile width : 375px**/
+
+
+
+
+.container {
+    min-width: 350px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: end;
+    background-color: #ffff;
+    display: flex;
+}
+
+
+
+.productContainer
+{
+    background-color: #ffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;    
+}
+
+.productText
+{
+    background-color: #ffff;
+    padding: 2rem 10rem;
+}
+
+.productType
+{
+    color : var(--dark-greyish-blue);
+    font-family: 'Montserrat';
+   margin-top: -800px;
+   font-size: 25px;
+   opacity: 50%;
+   font-weight: 500px;
+   letter-spacing: 5px;
+
+}
+
+.productTitle
+{
+    color : black;
+    font-weight: 900;
+    font-size: 80px;
+    font-family: 'Fraunces';
+    margin-top: -40px;
+}
+
+.descriptionTextSection 
+{    
+    color : var(--very-dark-blue);
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 20px;
+    opacity: 40%;
+    margin-top: -50px;
+}
+
+.price
+{
+    flex-direction: row;
+    display: flex;
+    margin-top: -20px;
+}
+
+.productPrice
+{
+    color : var(--payment-color);
+    font-family: 'Fraunces';
+
+    font-size: 80px;
+    font-weight: 900;
+    
+}
+
+
+.verticalAlignment
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.productPriceReduced
+{
+    color : var(--dark-greyish-blue);
+    text-decoration: line-through;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: 'Fraunces';
+}
+
+
+
+.payment 
+{
+    padding: 28px 44px;
+	background-color: var(--payment-color);
+    border-width: 2px;
+	border-radius: 15px;
+	box-sizing: border-box;
+    line-height: 17px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.cartSVG
+{
+    color: white;
+    margin-right : 20px;
+    width: 30px;
+}
+
+
+.payButton 
+{	
+	font-family: 'Montserrat';
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+    color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+
+}
