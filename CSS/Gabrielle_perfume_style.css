@@ -16,14 +16,18 @@
     --payment-color : #3c8067;
 }
 
-body {
-	
+body {	
     background-color: var(--background-color);
 }
 
+
+.verticalAlignment
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+
 /** mobile width : 375px**/
-
-
 
 
 .container {
@@ -39,7 +43,6 @@ body {
 }
 
 
-
 .productContainer
 {
     background-color: #ffff;
@@ -48,6 +51,7 @@ body {
     margin-top: auto;
     margin-bottom: auto;    
 }
+/** Type of Product Section **/
 
 .productText
 {
@@ -66,6 +70,7 @@ body {
    letter-spacing: 5px;
 
 }
+/** Product Section **/
 
 .productTitle
 {
@@ -86,6 +91,8 @@ body {
     margin-top: -50px;
 }
 
+/** Price Section **/
+
 .price
 {
     flex-direction: row;
@@ -102,14 +109,6 @@ body {
     font-weight: 900;
     
 }
-
-
-.verticalAlignment
-{
-    vertical-align: middle;
-    display: inline-block;
-}
-
 .productPriceReduced
 {
     color : var(--dark-greyish-blue);
@@ -121,7 +120,7 @@ body {
     font-family: 'Fraunces';
 }
 
-
+/** Payment Section **/
 
 .payment 
 {
@@ -143,7 +142,6 @@ body {
     width: 30px;
 }
 
-
 .payButton 
 {	
 	font-family: 'Montserrat';
@@ -154,6 +152,8 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
-
 }
+
+
+
+
